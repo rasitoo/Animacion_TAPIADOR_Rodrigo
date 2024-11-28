@@ -27,6 +27,7 @@ public class AnimatedForm : Form
 
         random = new Random();
         colorForma = Color.Blue;
+        this.DoubleBuffered = true;
 
         this.MouseClick += AnimatedForm_MouseClick;
     }
